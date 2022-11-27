@@ -1,0 +1,29 @@
+$primary: #a1a468;
+$secondary: #ffb600;
+$light: #f2eac7;
+$dark: #262726;
+$white: #f7f8f8;
+$font-family-base: 'Quicksand', sans-serif;
+$card-border-width: 0;
+$card-border-radius: 5px;
+
+@import "~bootstrap/scss/bootstrap";
+
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  #footer {
+    margin-top: auto;
+    background: $primary;
+    color: $white;
+    text-align: center;
+  }
+
+  .socials {
+    img {
+      height: 16px;
+    }
+  }
+}
